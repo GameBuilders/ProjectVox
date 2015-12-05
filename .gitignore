@@ -1,0 +1,8 @@
+Binaries/
+Config/
+Intermediate/
+Saved/
+ProjectVox.uproject
+.vs
+ProjectVox.sdf
+ProjectVox.sln
