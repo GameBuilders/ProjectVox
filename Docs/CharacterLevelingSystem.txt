@@ -8,6 +8,12 @@ General:
 		Tier 3 class selection
 	Level 4-10
 		Upgrades to stats and skills
+		
+Stats:
+	Strength (Str) - Physical damage, attack/movement energy usage discount
+	Intelligence (Int) - Non-physical ability damage, skill energy usage discount
+	Constitution (Con) - Determines max health
+	Dexterity (Dex) - Ranged and sneak damage, sneak crit multiplier
 
 Base Classes:
 	Mage
@@ -18,12 +24,23 @@ Base Classes:
 Mage:
 	Tier 1:
 		Novice:
+			Stats:
+				Str: 9
+				Int: 12
+				Con: 9
+				Dex: 12
 			Low strength and const
 			Higher int and dex
 			Skill:
 				Shoot energy ball
 	Tier 2:
 		Strictly magic:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
+			Int+2
 			Skills:
 				(Ranged)
 				Fire
@@ -32,6 +49,13 @@ Mage:
 				Water
 			Tier 3:
 				Arch mage:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
+					Int+4
+					Const-2
 					About:
 						Super powerful
 						Utility
@@ -40,6 +64,12 @@ Mage:
 					Skills:
 						
 				Leech:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
+					Int+++
 					About:
 						Lots of spells
 						Can absorb health from teammates or enemies in order
@@ -48,6 +78,13 @@ Mage:
 					Skills:
 						Absorb
 		Point blank magic (Battlemage):
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
+			Int+
+			Const+
 			Skills:
 				(Touch)
 				Fire
@@ -56,22 +93,40 @@ Mage:
 				Water
 			Tier 3:
 				Blink mage (Corvo Attano):
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Blink melee
 						Focus on getting in and out of combat quickly
 					Skills:
 						Blink
+						Crit bonus (passive)
 				Bruiser/Debuffer:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
+					Const+++
 					About:
 						Weapon and armor
 						Debuffer
 						Point blank
 						Damage/Utility
+						Disabler
 					Skills:
 						
 Rogue:
 	Tier 1:
 		Novice:
+			Stats:
+				Str: 13
+				Int: 9
+				Con: 9
+				Dex: 13
 			Low int and const
 			Higher dex and strength
 			Skill:
@@ -79,33 +134,63 @@ Rogue:
 					Move discreetly at cost of higher movement cost
 	Tier 2:
 		Gunner:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				Attack at range
 			Tier 3:
 				Grenadier:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Heavy AOE
 						Inaccurate
 					Skills:
 						Throw grenade/artillary strike
 				Sniper:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Single target
 						High damage
 					Skills:
 						Sniper shot
 		Sneak:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				Passive: Sneak crit bonus
 				Steal
 			Tier 3:
 				Assassin:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About: 
 						Impersonate enemy
 					Skills:
 						Impersonate
 							Must find dead body
 				Scout:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Low movement energy cost
 						High vision radius
@@ -119,60 +204,115 @@ Rogue:
 Melee:
 	Tier 1:
 		Novice:
+			Stats:
+				Str: 13
+				Int: 9
+				Con: 13
+				Dex: 9
 			Low dex and int
 			Higher strength and constitution
 			Skill:
 				Strong attack on one enemy
 	Tier 2:
 		Soldier:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				AOE attack
 			Tier 3:
 				Knight:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Reliable
 						DPS
 						Reach/Sweep
 					Skills:
 				Glass Cannon:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Mobile
 						Single target
 						Burst
 					Skills:
 		Berserker:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				Defensive mode
 					Higher defense at cost of reduced damage
 			Tier 3:
 				Melee Tank:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Crowd control
 						Take lots of damage
 					Skills:
 				Battering Ram:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Break enemy fortifications
 					Skills:
 Support:
 	Tier 1:
 		Novice:
+			Stats:
+				Str: 9
+				Int: 13
+				Con: 13
+				Dex: 9
 			Low strength and dex
 			Higher constitution and int
 			Skill:
 				Single-ally heal
 	Tier 2:
 		Medic:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				AOE Heal
 			Tier 3:
 				Builder/Support:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Build defenses
 					Skills:
 						Build wall
 						Repair fortifications/mechs
 				Cleric:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Buffs
 						Rez allies
@@ -188,16 +328,31 @@ Support:
 						Increase dex
 						Increase int
 		Mechanic:
+			Stats:
+				Str:
+				Int:
+				Con:
+				Dex:
 			Skills:
 				Basic, immobile turret
 			Tier 3:
 				Engineer:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						Large, durable, immobile offense
 					Skills:
 						Build large, powerful turret
 						Place land mines
 				Inventor:
+					Stats:
+						Str:
+						Int:
+						Con:
+						Dex:
 					About:
 						RC cars (clockwork)
 						Decoys

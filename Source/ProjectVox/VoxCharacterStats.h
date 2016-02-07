@@ -19,7 +19,7 @@ public:
 	int maxHealth;		// Cap on health
 	int maxEnergy;		// Cap on AP
 	// Core stats
-	int strength;		// Amound of damage a character does with physical attacks. Determines fatigue capacity
+	int strength;		// Amound of damage a character does with physical attacks
 	int dexterity;		// Ranged and sneak stat, bows, small weapons damage. Determines sneak crit multiplier
 	int intelligence;	// Mage stat, spells. Determines magic damage and energy discount factor
 	int constitution;	// Determines max health
@@ -27,7 +27,6 @@ public:
 	// Consumable stat amounts
 	int health;			// Amound of damage a character can take
 	int energy;			// (AP) Amount of stuff a character can do 
-	// int fatigue;		// How much distance/attacks take from energy
 	
 	
 	
