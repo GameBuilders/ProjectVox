@@ -1,0 +1,208 @@
+General:
+	Level 1
+		Starting level for every character
+		Tier 1
+	Level 2
+		Tier 2 class selection
+	Level 3
+		Tier 3 class selection
+	Level 4-10
+		Upgrades to stats and skills
+
+Base Classes:
+	Mage
+	Rogue
+	Melee
+	Support
+	
+Mage:
+	Tier 1:
+		Novice:
+			Low strength and const
+			Higher int and dex
+			Skill:
+				Shoot energy ball
+	Tier 2:
+		Strictly magic:
+			Skills:
+				(Ranged)
+				Fire
+				Ice
+				Earth/Wind
+				Water
+			Tier 3:
+				Arch mage:
+					About:
+						Super powerful
+						Utility
+						Front-Loaded
+						Squishy
+					Skills:
+						
+				Leech:
+					About:
+						Lots of spells
+						Can absorb health from teammates or enemies in order
+						to restore his own energy.
+						High energy cap
+					Skills:
+						Absorb
+		Point blank magic (Battlemage):
+			Skills:
+				(Touch)
+				Fire
+				Ice
+				Earth/Wind
+				Water
+			Tier 3:
+				Blink mage (Corvo Attano):
+					About:
+						Blink melee
+						Focus on getting in and out of combat quickly
+					Skills:
+						Blink
+				Bruiser/Debuffer:
+					About:
+						Weapon and armor
+						Debuffer
+						Point blank
+						Damage/Utility
+					Skills:
+						
+Rogue:
+	Tier 1:
+		Novice:
+			Low int and const
+			Higher dex and strength
+			Skill:
+				Sneak mode
+					Move discreetly at cost of higher movement cost
+	Tier 2:
+		Gunner:
+			Skills:
+				Attack at range
+			Tier 3:
+				Grenadier:
+					About:
+						Heavy AOE
+						Inaccurate
+					Skills:
+						Throw grenade/artillary strike
+				Sniper:
+					About:
+						Single target
+						High damage
+					Skills:
+						Sniper shot
+		Sneak:
+			Skills:
+				Passive: Sneak crit bonus
+				Steal
+			Tier 3:
+				Assassin:
+					About: 
+						Impersonate enemy
+					Skills:
+						Impersonate
+							Must find dead body
+				Scout:
+					About:
+						Low movement energy cost
+						High vision radius
+						Able to uncover fog of war quickly
+						Useful for collecting items/intel
+						Useful for collecting bodies
+					Skills:
+						Increased vision radius (Passive)
+						Decreased movement cost (Passive)
+						Able to detect enemy defenses (mines)
+Melee:
+	Tier 1:
+		Novice:
+			Low dex and int
+			Higher strength and constitution
+			Skill:
+				Strong attack on one enemy
+	Tier 2:
+		Soldier:
+			Skills:
+				AOE attack
+			Tier 3:
+				Knight:
+					About:
+						Reliable
+						DPS
+						Reach/Sweep
+					Skills:
+				Glass Cannon:
+					About:
+						Mobile
+						Single target
+						Burst
+					Skills:
+		Berserker:
+			Skills:
+				Defensive mode
+					Higher defense at cost of reduced damage
+			Tier 3:
+				Melee Tank:
+					About:
+						Crowd control
+						Take lots of damage
+					Skills:
+				Battering Ram:
+					About:
+						Break enemy fortifications
+					Skills:
+Support:
+	Tier 1:
+		Novice:
+			Low strength and dex
+			Higher constitution and int
+			Skill:
+				Single-ally heal
+	Tier 2:
+		Medic:
+			Skills:
+				AOE Heal
+			Tier 3:
+				Builder/Support:
+					About:
+						Build defenses
+					Skills:
+						Build wall
+						Repair fortifications/mechs
+				Cleric:
+					About:
+						Buffs
+						Rez allies
+						Cure status ailments
+					Skills:
+						Resurrect ally
+							Must be in range
+							Only once per battle (increases with leveling)
+						Cure ailments
+						Increase max health
+						Increase max energy
+						Increase strength
+						Increase dex
+						Increase int
+		Mechanic:
+			Skills:
+				Basic, immobile turret
+			Tier 3:
+				Engineer:
+					About:
+						Large, durable, immobile offense
+					Skills:
+						Build large, powerful turret
+						Place land mines
+				Inventor:
+					About:
+						RC cars (clockwork)
+						Decoys
+						Small, controllable vehicles
+							Each can be moved independently at once, but all controls cost energy
+					Skills:
+						Build clockword car
+						Build decoy

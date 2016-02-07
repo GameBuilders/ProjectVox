@@ -6,7 +6,7 @@
 #include "VoxCharacterStats.generated.h"
 
 /**
- * 
+ * Component containing the stats of a VoxCharacter
  */
 UCLASS()
 class PROJECTVOX_API UVoxCharacterStats : public UVoxComponent
@@ -16,10 +16,18 @@ class PROJECTVOX_API UVoxCharacterStats : public UVoxComponent
 public:
 	UVoxCharacterStats();
 	// Stat fields of characters
-	int maxHealth;
-	int strength; // Soldier stat, close range, hand to hand
-	int dexterity; // Ranged and sneak stat, bows, small weapons
-	int magic; // Mage stat, spells
+	int maxHealth;		// Cap on health
+	int maxEnergy;		// Cap on AP
+	// Core stats
+	int strength;		// Amound of damage a character does with physical attacks. Determines fatigue capacity
+	int dexterity;		// Ranged and sneak stat, bows, small weapons damage. Determines sneak crit multiplier
+	int intelligence;	// Mage stat, spells. Determines magic damage and energy discount factor
+	int constitution;	// Determines max health
+
+	// Consumable stat amounts
+	int health;			// Amound of damage a character can take
+	int energy;			// (AP) Amount of stuff a character can do 
+	// int fatigue;		// How much distance/attacks take from energy
 	
 	
 	
